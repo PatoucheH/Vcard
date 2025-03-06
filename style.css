@@ -1,0 +1,136 @@
+*,
+::after,
+::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+a,
+li,
+ul {
+  text-decoration: none;
+}
+
+body {
+  height: 100vh;
+  font-size: 1.2rem;
+  display: flex;
+  position: relative;
+}
+
+.info-section {
+  background: midnightblue;
+  color: #f1f1f1;
+  width: 40%;
+  height: 100%;
+}
+
+.picture-of-me {
+  top: 5%;
+  position: absolute;
+  left: 30%;
+}
+
+.picture-of-me img {
+  width: 30vw;
+  height: 90vh;
+  box-shadow: 5px 10px 15px black;
+}
+
+.about-me {
+  position: absolute;
+  top: 20%;
+  right: 0;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.info {
+  position: absolute;
+  top: 60%;
+  left: 5%;
+}
+
+.info p,
+.info h3 {
+  margin: 10px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+}
+
+.my-logo {
+  width: 150px;
+  height: 150px;
+}
+
+.logo-media {
+  width: 40px;
+  height: 25px;
+}
+
+.button-div {
+  display: flex;
+  flex-direction: row;
+  padding: 20px 50px 50px 50px;
+}
+
+button {
+  border-radius: 999px;
+  padding: 15px 25px;
+  margin: 35px;
+  box-shadow: 0px 6px 0px black;
+  border: 0;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+button:hover {
+  box-shadow: 0 3px 0 black;
+  transform: translate(0, 3px);
+}
+
+button:active {
+  box-shadow: 0 0 0 black;
+  transform: translate(0, 6px);
+}
+
+.button-div button:first-child {
+  background: midnightblue;
+  color: #f1f1f1;
+}
+
+.button-div button:nth-child(2) {
+  border: 1px solid black;
+}
+
+.describe-me {
+  text-align: left;
+  width: 70%;
+  padding-left: 30px;
+}
+
+h1 {
+  font-size: 3rem;
+}
+
+b {
+  color: midnightblue;
+}
+
+h2 {
+  font-size: 1rem;
+  margin: 15px 10px 25px 0;
+}
+
+.describe-me p {
+  line-height: 1.6;
+  margin-top: 40px;
+}
