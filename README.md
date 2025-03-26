@@ -10,7 +10,7 @@ It’s a simple, fully imaginative business card— all the information displaye
 
 Here’s a screenshot of the site. It looks the same whether using Flexbox or Grid.
 
-![alt text](<assets/Capture d'écran 2025-03-26 111825.png>)
+![alt text](<assets/Capture d'écran 2025-03-26 112625.png>)
 
 If you want to look the [site](https://patoucheh.github.io/Vcard/)
 
